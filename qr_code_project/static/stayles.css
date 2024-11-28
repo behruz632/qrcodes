@@ -1,0 +1,66 @@
+/* static/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(rgb(22, 8, 87));
+    background-color: #152638;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color:rgba(0, 255, 255, 0.534);
+    padding: 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 140px;
+    border-radius: 40px ;
+    box-shadow: 10px 10px 20px white;
+}
+
+h1 {
+    color:white
+    ;
+    font-size: 38px;
+}
+
+label {
+    font-size: 28px;
+    margin-right: 10px;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 350px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #087dfa;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(4, 255, 0);
+}
+
+#qr-code-container {
+    margin-top: 20px;
+}
+
+#qr-code {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
